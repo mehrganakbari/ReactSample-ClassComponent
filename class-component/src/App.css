@@ -1,0 +1,63 @@
+.container{
+  height: 100vh;
+  background-color: #61DAFB;
+}
+
+.App{
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #3b3b3b;
+  color:#61DAFB;
+}
+
+.App img {
+  margin: 10px auto;
+  animation: ani 10s infinite linear;
+}
+
+.App button{
+  margin-top: 20px !important;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px #61DAFB solid;
+  color:#61DAFB;
+  background: #333;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.App p{
+  color:#61DAFB;
+  font-size: .8rem;
+  margin: 5px 0px !important;
+}
+
+.App span{
+  color: blue;
+}
+
+.product-contain{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.footer{
+  text-align: center;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@keyframes ani {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(180deg);}
+  75%  {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
+
